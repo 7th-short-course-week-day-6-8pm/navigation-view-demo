@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/btnInbox"
+            android:title="Inbox"
+            android:icon="@drawable/ic_inbox_gray_24dp"/>
+        <item android:id="@+id/btnSnoozed"
+            android:title="Snoozed"
+            android:icon="@drawable/ic_snooze_gray_24dp"/>
+        <item android:id="@+id/btnDone"
+            android:title="Done"
+            android:icon="@drawable/ic_done_gray_24dp"/>
+
+    </group>
+</menu>
