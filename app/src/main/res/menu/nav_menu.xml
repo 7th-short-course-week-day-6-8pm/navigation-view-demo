@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group >
         <item android:id="@+id/btnInbox"
             android:title="Inbox"
             android:icon="@drawable/ic_inbox_gray_24dp"/>
@@ -9,7 +10,15 @@
             android:icon="@drawable/ic_snooze_gray_24dp"/>
         <item android:id="@+id/btnDone"
             android:title="Done"
+            android:checkable="true"
             android:icon="@drawable/ic_done_gray_24dp"/>
+
+
+        <item
+            android:title="share"
+            android:id="@+id/btnShare"
+            android:icon="@drawable/ic_done_gray_24dp"
+            app:actionLayout="@layout/share_nav_item_layout"/>
 
     </group>
 </menu>

@@ -2,4 +2,19 @@
     <string name="app_name">MaterialDesign</string>
     <string name="nav_toggle_open">Open</string>
     <string name="nav_toggle_close">Close</string>
+
+    <string name="content">
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+        Okay, our Bottom Navigation has three items, but it can go up to five. So considering the extreme scenario, we can have five resource-heavy Fragments. So you can do your app a favour and use a
+    </string>
 </resources>

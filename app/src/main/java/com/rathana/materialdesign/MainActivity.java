@@ -13,6 +13,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.CompoundButton;
+import android.widget.Toast;
 
 import com.rathana.materialdesign.fragment.DoneFragment;
 import com.rathana.materialdesign.fragment.HomeFragment;
@@ -52,6 +54,17 @@ implements NavigationView.OnNavigationItemSelectedListener{
 
         //add event listener to navigation view
         navigationView.setNavigationItemSelectedListener(this);
+
+        MenuItem menuItem= navigationView.getMenu().findItem(R.id.btnShare);
+        CompoundButton checkbox= (CompoundButton) menuItem.getActionView();
+        checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                Toast.makeText(MainActivity.this, "check", Toast.LENGTH_SHORT)
+                        .show();
+            }
+        });
+
     }
 
     @Override
